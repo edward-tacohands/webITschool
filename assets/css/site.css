@@ -51,7 +51,7 @@ footer{
   text-align: center;
   width: 100%;
   position: relative;
-  border: solid 40px grey;
+  border: dotted 60px aquamarine;
   border-radius: 3rem;
 }
 
@@ -79,23 +79,29 @@ footer{
   border-radius: 2rem;
   text-align: center;
   margin-top: -170px;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn{
-  font-size: 0.8rem;
-  display: inline-block;
+  font-size: 0.8rem ;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin: 1rem;
   color: antiquewhite;
   background-color:rgba(0, 0, 0, 0.6);
   border: solid 4px purple;
-  width: 7rem;
-  text-align: center;
-  padding: 0.5rem;
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
   cursor: pointer;
   outline: none !important;
   white-space: nowrap;
   text-decoration: none;
-  border-radius: 10rem;
+  border-radius: 50%;
+  
 }
 .btn:hover{
   background-color: goldenrod;
