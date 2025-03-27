@@ -9,11 +9,10 @@
 
 .card {
   color: #f4f4f4;
-  background-color: blue;
-  border-radius: 2rem;
+  background-color: rgb(255, 0, 204);
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.6);
-  min-width: 100px;
-  max-width: 250px;
+  min-width: 250px;
+  max-width: 300px;
   margin: 2rem;
 }
 
@@ -22,12 +21,9 @@
   height: 100%;
   background-size: cover;
   background-position: center;
-  border: solid 1px #333;
-  border-radius: 2rem;
   cursor: pointer;
   border: solid 5px blue;
   display: column;
-
 }
 
 .card p{
@@ -49,7 +45,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
   }

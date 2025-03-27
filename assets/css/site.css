@@ -1,9 +1,6 @@
 @import './navigation.css';
 @import './gallery.css';
 
-
-/* Mobile first... */
-/* Reset */
 * {
   padding: 0;
   margin: 0;
@@ -93,8 +90,8 @@ footer{
   color: antiquewhite;
   background-color:rgba(0, 0, 0, 0.6);
   border: solid 4px purple;
-  width: 4rem;
-  height: 4rem;
+  width: 4.5rem;
+  height: 4.5rem;
   padding: 1rem;
   cursor: pointer;
   outline: none !important;
