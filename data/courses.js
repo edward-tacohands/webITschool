@@ -1,12 +1,12 @@
 export const courses = [
     {
         id: 1,
-        title: 'Systemutveckling C#' ,
+        title: 'Systemutveckling inriktning A-kassa' ,
         duration: 20,
         location: 'Malmö',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image2.jpg',
+        imageUrl: 'image1.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -16,17 +16,17 @@ export const courses = [
         location: 'Luleå',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image3.jpg',
+        imageUrl: 'image2.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
         id: 3,
-        title: 'DevOps' ,
+        title: 'DevWhoops :P' ,
         duration: 20,
         location: 'Distans',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image4.jpg',
+        imageUrl: 'image3.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -36,7 +36,7 @@ export const courses = [
         location: 'Distans',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image5.jpg',
+        imageUrl: 'image4.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -46,7 +46,7 @@ export const courses = [
         location: 'Malmö',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image6.jpg',
+        imageUrl: 'image5.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -56,7 +56,7 @@ export const courses = [
         location: 'Stockholm',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image7.jpg',
+        imageUrl: 'image6.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     }
 ]

@@ -29,9 +29,9 @@
 .card p{
   text-align: center;
   position: relative;
-  top: -50px;
+  top: -70px;
   background: #cc0000;
-  max-width: 80%;
+  max-width: 70%;
   margin: auto;
   padding: 0.3rem 0;
   justify-content: center;

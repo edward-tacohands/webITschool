@@ -1,5 +1,4 @@
 @import './navigation.css';
-@import './gallery.css';
 
 * {
   padding: 0;
@@ -40,7 +39,7 @@ footer{
 }
 
 .landing{
-  background: url('../images/image1.jpg') no-repeat center center / cover;
+  background: url('../images/landingimage.jpg') no-repeat center center / cover;
   height: 100vh;
   display: flex;
   justify-content: center;
