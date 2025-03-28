@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/site.css" />
+    <script type="module" src="../lib/app.js" defer></script>
+    <title>Lägg till kurs</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="container">
+            <ul class="menu">
+              <li class="logo">
+                <a href="../index.html">Westcoast Education</a>
+              </li>
+              <li class="toggle">
+                <input type="checkbox" id="menu-btn" class="menu-btn" />
+                <label for="menu-btn" class="menu-icon">
+                  <span class="nav-icon"></span>
+                </label>
+              </li>
+              <li class="menu-item">
+                <a href="../index.html">Start</a>
+              </li>
+              <li class="menu-item">
+                <a href="../pages/gallery.html">Våra kurser</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Om Oss</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Kontakta Oss</a>
+              </li>
+              <li class="menu-item">
+                <a class="active" href="../pages/gallery.html">Lägg till kurs</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Lägg till en kurs</h1>
+      <div class="message-container"></div>
+      <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            name="item"
+            placeholder="Kurs namn" />
+        </div>
+        <div class="form-control">
+          <button type="submit" class="btn btn-primary">
+            <i class="fa-solid fa-plus"></i> Lägg till
+          </button>
+        </div>
+      </form>
+      <div class="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Sök" />
+      </div>
+      <ul id="item-list" class="items"></ul>
+      <button id="clear" class="btn btn-clear">Töm Allt</button>
+    </div>
+</body>
+
+</html>
