@@ -1,0 +1,65 @@
+@import './site.css';
+
+.container div{
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border: solid 1px #b2b2b2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    border-radius: 0.5rem;
+    min-width: 7rem;
+    max-height: 3rem;
+    border: solid 2px #607D8B;
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.form-input {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-input-filter {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+  }
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .items li {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px 20px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+h1{
+    text-align: center;
+    margin: 1rem;
+}
