@@ -12,10 +12,6 @@ body {
   height: 100vh;
 }
 
-main {
-  padding: 3rem 2rem;
-}
-
 main section p{
   text-align: justify;
   background: #607D8B;
@@ -27,7 +23,7 @@ main section p{
 
 footer{
   background-color: #263238;
-  color: #0c1312;
+  color: azure;
   font-size: 2rem;
   font-style: italic;
   width: 100%;
