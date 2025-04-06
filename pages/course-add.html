@@ -1,75 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/courses.css" />
-    <script type="module" src="../lib/app.js" defer></script>
-    <title>Lägg till kurs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/courses.css" />
+  <script type="module" src="../lib/app.js" defer></script>
+  <title>Lägg till kurs</title>
 </head>
-<body>
-    <header>
-        <nav>
-          <div class="container">
-            <ul class="menu">
-              <li class="logo">
-                <a href="../index.html">Westcoast Education</a>
-              </li>
-              <li class="toggle">
-                <input type="checkbox" id="menu-btn" class="menu-btn" />
-                <label for="menu-btn" class="menu-icon">
-                  <span class="nav-icon"></span>
-                </label>
-              </li>
-              <li class="menu-item">
-                <a href="../index.html">Start</a>
-              </li>
-              <li class="menu-item">
-                <a href="../pages/gallery.html">Våra kurser</a>
-              </li>
-              <li class="menu-item">
-                <a href="#">Om Oss</a>
-              </li>
-              <li class="menu-item">
-                <a href="#">Kontakta Oss</a>
-              </li>
-              <li class="menu-item">
-                <a class="active" href="../pages/gallery.html">Lägg till kurs</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-    </header>
-    <div class="container">
-        <h1>Lägg till en kurs</h1>
-      <div class="message-container"></div>
-      <form id="item-form">
-        <div class="form-control">
-          <input
-            type="text"
-            class="form-input"
-            id="item-input"
-            name="item"
-            placeholder="Kursnamn" />
-        </div>
-        <div class="form-control">
-          <button type="submit" class="btn btn-primary">
-            <i class="fa-solid fa-plus"></i> Lägg till
-          </button>
-        </div>
-      </form>
-      <div class="filter">
-        <input
-          type="text"
-          class="form-input-filter"
-          id="filter"
-          placeholder="Sök" />
-      </div>
-        <div>
-            <ul id="item-list" class="items"></ul>
-            <button id="clear" class="btn btn-clear">Töm Allt</button>
-        </div>
-    </div>
-</body>
 
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="container">
+          <ul class="menu">
+            <li class="logo">
+              <a href="../index.html">Westcoast Education</a>
+            </li>
+            <li class="toggle">
+              <input type="checkbox" id="menu-btn" class="menu-btn" />
+              <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+              </label>
+            </li>
+            <li class="menu-item">
+              <a href="../index.html">Start</a>
+            </li>
+            <li class="menu-item">
+              <a href="../pages/gallery.html">Våra kurser</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Om Oss</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Kontakta Oss</a>
+            </li>
+            <li class="menu-item">
+              <a class="active" href="../pages/gallery.html">Lägg till kurs</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1 class="page-title">Lägg till ny kurs</h1>
+        <article>
+          <form id="addCourseForm">
+            <div class="form-controls">
+              <label for="title">Namn</label>
+              <input type="text" name="title" id="title" />
+            </div>
+            <div class="form-controls">
+              <label for="duration">Längd</label>
+              <input type="text" name="duration" id="duration" />
+            </div>
+            <div class="form-controls">
+              <label for="adress">Adress</label>
+              <input type="text" name="adress" id="adress" />
+            </div>
+            <div class="form-controls">
+              <label for="extent">Omfattning</label>
+              <input type="text" name="extent" id="extent" />
+            </div>
+            <div class="form-controls">
+              <label for="imageUrl">Url till bild</label>
+              <input
+                type="text"
+                name="imageUrl"
+                id="imageUrl"
+                value="" />
+            </div>
+            <div class="form-controls">
+              <label for="applyBefore">Sista anmälningsdag</label>
+              <input type="text" name="applyBefore" id="applyBefore" />
+            </div>
+            <div class="form-controls">
+              <label for="description">Beskrivning</label>
+              <textarea name="description" id="description"></textarea>
+            </div>
+            <div class="btn-container"><button class="btn-form">Spara</button></div>
+          </form>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      Westcoast Education&copy;
+    </footer>
+  </div>
+</body>
 </html>

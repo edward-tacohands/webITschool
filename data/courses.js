@@ -6,7 +6,7 @@ export const courses = [
         adress: 'Malmö',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image1.jpg',
+        imageUrl: 'https://res.cloudinary.com/djnodyfl1/image/upload/v1743859991/screen-code-girl_tn59wz.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -16,7 +16,7 @@ export const courses = [
         adress: 'Luleå',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image2.jpg',
+        imageUrl: 'https://res.cloudinary.com/djnodyfl1/image/upload/v1743859989/laptop-java_hxirw0.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -26,7 +26,7 @@ export const courses = [
         adress: 'Distans',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image3.jpg',
+        imageUrl: 'https://res.cloudinary.com/djnodyfl1/image/upload/v1743859989/laptop-java2_pnwyqz.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -36,7 +36,7 @@ export const courses = [
         adress: 'Distans',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image4.jpg',
+        imageUrl: 'https://res.cloudinary.com/djnodyfl1/image/upload/v1743859989/screen-code_jsawjq.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -46,7 +46,7 @@ export const courses = [
         adress: 'Malmö',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image5.jpg',
+        imageUrl: 'https://res.cloudinary.com/djnodyfl1/image/upload/v1743860600/hovslagare-1_zgxh2b.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     },
     {
@@ -56,7 +56,7 @@ export const courses = [
         adress: 'Stockholm',
         extent: '100%',
         applyBefore: '31 mars 2026',
-        imageUrl: 'image6.jpg',
+        imageUrl: 'https://res.cloudinary.com/djnodyfl1/image/upload/v1743859988/team-meeting_cvflju.jpg',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, culpa sunt in eveniet aliquid perferendis veniam hic assumenda fuga minima.'
     }
 ]

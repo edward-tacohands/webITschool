@@ -9,7 +9,10 @@
 body {
   font-family: monospace;
   line-height: 1.6;
-  height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 main section p{
@@ -17,7 +20,8 @@ main section p{
   background: #607D8B;
   color: black;
   padding: 1rem;
-  width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
 }
 
@@ -29,7 +33,12 @@ footer{
   width: 100%;
   height: 100px;
   text-align: center;
-  bottom: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .landing{
@@ -50,7 +59,7 @@ footer{
 }
 
 .landing-content{
-  background:#263238;
+  background:rgba(38, 50, 56, 0.85);
   padding: 2rem;
   color: aliceblue;
   line-height: 1.5;
@@ -78,9 +87,18 @@ footer{
   outline: none !important;
   white-space: nowrap;
   text-decoration: none;
-  border-radius: 50%;
-  
+  border-radius: 50%; 
 }
+
+.btn-form {
+  border-radius: 0.5rem;
+  min-width: 7rem;
+  max-height: 3rem;
+  border: solid 2px #607D8B;
+  color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
 .btn:hover{
   background-color: azure;
   color: #263238;
