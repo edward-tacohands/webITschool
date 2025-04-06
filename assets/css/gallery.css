@@ -1,6 +1,7 @@
 /* Mobile first... */
 @import './site.css';
 
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -14,8 +15,8 @@
   border-radius: 0.8rem;
   background-color: transparent;
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.6);
-  min-width: 250px;
-  max-width: 300px;
+  width: 16rem;
+  height: 16rem;
   margin: 1rem;
 }
 

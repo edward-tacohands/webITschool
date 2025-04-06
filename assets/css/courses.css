@@ -2,8 +2,8 @@
 
 .container div{
   max-width: 480px;
-  margin: 30px auto;
-  padding: 20px;
+  margin: 1rem auto;
+  padding: 1rem;
   background: #fff;
   border: solid 1px #b2b2b2;
   border-radius: 5px;

@@ -9,6 +9,7 @@
 body {
   font-family: monospace;
   line-height: 1.6;
+  background-color: #ECEFF1;
 }
 
 main {
@@ -27,7 +28,7 @@ main section p{
 
 footer{
   background-color: #263238;
-  color: azure;
+  color: #ECEFF1;
   font-size: 2rem;
   font-style: italic;
   width: 100%;
@@ -55,13 +56,13 @@ footer{
 .landing h1{
   font-weight: 600;
   font-size: 2rem;
-  color:azure
+  color:#ECEFF1
 }
 
 .landing-content{
   background:rgba(38, 50, 56, 0.85);
   padding: 2rem;
-  color: aliceblue;
+  color: #ECEFF1;
   line-height: 1.5;
   border-radius: 2rem;
   text-align: center;
@@ -77,7 +78,7 @@ footer{
   align-items: center;
   text-align: center;
   margin: 1rem;
-  color: antiquewhite;
+  color: #ECEFF1;
   background-color:rgba(0, 0, 0, 0.6);
   border: solid 4px #607D8B;
   width: 5rem;
@@ -92,15 +93,16 @@ footer{
 
 .btn-form {
   border-radius: 0.5rem;
-  min-width: 7rem;
+  min-width: 8rem;
   max-height: 3rem;
+  padding: 1rem 5rem;
   border: solid 2px #607D8B;
-  color: white;
+  color: #ECEFF1;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
 }
 
 .btn:hover{
-  background-color: azure;
+  background-color: #ECEFF1;
   color: #263238;
 }
 
