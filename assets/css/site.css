@@ -42,6 +42,43 @@ footer{
   min-height: 100vh;
 }
 
+.container2{
+  display: flex;
+  height: 75vh;
+}
+
+.second-image {
+  flex: 1;
+  background: url(https://res.cloudinary.com/djnodyfl1/image/upload/v1743859989/laptop-java_hxirw0.jpg) no-repeat center center / cover;
+  background-size: cover;
+  
+}
+
+.second-content {
+  flex: 1;
+  background-color:#263238;
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container2 h1{
+  font-size: 2.5rem;
+}
+.container2 h2{
+  font-weight: 150;
+}
+
+.container2 p{
+  padding: 1rem;
+  margin: 2rem;
+  max-width: 50%;
+  border: solid 1px #ECEFF1;
+  border-radius: 0.8rem;
+}
+
 .landing{
   background: url(https://res.cloudinary.com/djnodyfl1/image/upload/v1743859991/code-blur_avjjcw.jpg) no-repeat center center / cover;
   height: 100vh;
